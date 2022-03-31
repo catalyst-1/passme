@@ -3,6 +3,6 @@ def lfsr(v):
     res ="0b"
     for i in range(v+1):
         new_b = (state)&1
-        res += newb
+        res += str(new_b)
         state = (state ^ (state >> 1) ^ (state >> 2) ^ (state >> 7))
     return int(res,2)
