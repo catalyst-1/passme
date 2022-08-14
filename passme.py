@@ -34,7 +34,7 @@ except EOFError:
 
 except IndexError:
     inp = int(input("enter your passwords desired length : "))
-    target = input("this pasaword is for ? : ")
+    target = input("this password is for ? : ")
     result =""
 
     for i in range(inp):
